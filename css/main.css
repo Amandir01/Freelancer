@@ -1,14 +1,14 @@
 * {
   box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
+  text-decoration: none; /*para quitar la apariencia de enlace a todos los elementos que añada*/
+  list-style: none; /*quitar la apariencia de lista*/
   overflow: auto;
   margin :0;
 }
 .text-align {
-  text-align: center;
+  text-align: center; /*para que se centre los elementos que escoja*/
 }
-.text-uppercase {
+.text-uppercase { /*se volverán en mayuscula los elementos que elija*/
   text-transform: uppercase;
 }
 .montserrat {
@@ -30,7 +30,7 @@ font-family: 'Lato', sans-serif;
   float: right;
   margin-top: 32px;
   }
-.principal {
+.principal { /* letras grandes del menu*/
   margin-left: 70px;
   position: absolute;
   margin-top: 32px;
@@ -42,7 +42,7 @@ font-family: 'Lato', sans-serif;
  }
  .links li a {
    float: right;
-   font-size: 17px;
+   font-size: 17px; /*tamaño de la letra*/
    color: white ;
    padding-right: 11px; /*espacio entre palabras*/
  }
@@ -52,7 +52,7 @@ font-family: 'Lato', sans-serif;
    margin-top: 10px;
  }
  #first-container {
-   background: #18bc9c ;
+   background: #18bc9c ; /*color de fondo */
    margin-top: 105px;
    height: 686px;
  }
@@ -63,23 +63,23 @@ font-family: 'Lato', sans-serif;
 .tittles {
   margin-top: 30px;
   color : white ;
-  font-size: 30px;
+  font-size: 30px; /*tamaño de la letra*/
 }
-#start::after {
+#start::after { /*linea de la estrella*/
   content: " ";
   display: inline-block;
   width: 103px;
   height: 5px;
-  background: white;
+  background: white; /*color de la linea de la estrella*/
   margin: 14px 8px;
-  border-radius: 6px;
+  border-radius: 6px; /*estetica*/
 }
-#start::before {
+#start::before { /*linea de la estrella*/
   content: " ";
   display: inline-block;
   width: 103px;
   height: 5px;
-  background: white;
+  background: white; /*color de la linea de la estrella*/
   margin: 14px 8px;
   border-radius: 6px;
 }
@@ -92,7 +92,7 @@ font-family: 'Lato', sans-serif;
   margin: 9px;
 }
 .subtittle2 {
-  font-size: 28px;
+  font-size: 28px; /*tamaño de la letra*/
 }
 #portfolio {
   /*outline: 2px solid black;*/
@@ -105,19 +105,19 @@ font-family: 'Lato', sans-serif;
   color: #212529 ;
 }
 
-#start2::after {
+#start2::after { /*linea de la estrella*/
   content: " ";
   display: inline-block;
   width: 150px;
   height: 5px;
-  background: #2c3e50;
+  background: #2c3e50; /*color de la linea de la estrella*/
   margin: 14px 10px;
-  border-radius: 6px;
+  border-radius: 6px; /*estetica*/
 }
-#start2::before {
+#start2::before { /*linea de la estrella*/
   content: " ";
   display: inline-block;
-  width: 150px;
+  width: 150px; /*ancho de la linea de la estrella*/
   height: 5px;
   background: #2c3e50;
   margin: 14px 8px;
@@ -127,12 +127,12 @@ font-family: 'Lato', sans-serif;
 /*outline: 1px solid red;*/
 }
 
-.six1 {
+.six1 { /*primera fila de imagenes*/
 width: 347px;
 height: 252px;
 margin: 14px;
 }
-.six2 {
+.six2 { /*segunda fila de imagenes*/
 margin: 14px;
 width: 347px;
 height: 252px;
@@ -147,7 +147,7 @@ height: 252px;
 }
 h2 {
   margin-top: 110px;
-  font-size: 45px;
+  font-size: 45px; /*tamaño de la letra*/
   display: block;
 }
 
@@ -161,29 +161,51 @@ h2 {
 .paragraph1 {
   /*outline: 1px solid black;*/
   height: 180px ;
-  font-size: 20px;
+  font-size: 20px;/*tamaño de la letra*/
   width: 360px;
-  text-align: left;
+  text-align: left; /*para que los parrafos se alineen a la izquierda*/
 
 }
 .paragraph2 {
   /*outline: 1px solid purple;*/
   height: 163px;
-  font-size: 20px;
+  font-size: 20px; /*tamaño de la letra*/
   width: 364px;
-  text-align: left;
+  text-align: left; /*para que los parrafos se alineen a la izquierda*/
 }
 .download{
-  width: 215px;
+  width: 215px; /*tamaño del cuadro*/
   height: 55px;
-  border-radius: 5px;
-  border: 3px solid white ;
-  color: white;
+  border-radius: 5px; /*añadiendo borde redondo*/
+  border: 3px solid white ; /*grueso y color del borde */
+  color: white; /*color de letra*/
   background-color: #18bc9c;
-  font-size: 20px;
+  font-size: 20px; /*tamaño de letra*/
   display: inline-block;
-  margin-top: 29px;
+  margin-top: 29px; /*para separarlo de los parrafos*/
 }
 .download i {
-  margin-top: 10px;
+  margin-top: 10px; /* para separarlo del borde*/
+}
+.download:hover { /*agregando animacion*/
+  background-color: white;
+  color:  #18bc9c ;
+
+}
+#contact {
+  height: 887px;
+  margin-top: 112px; /*separacion con la anterior seccion*/
+}
+.tittle3 {
+  text-align: center;  /*letras al centro*/
+  font-size: 32px; /*tamaño de letra*/
+  color: #212529 ;
+
+}
+.atribute { /*para esconder los nombres del label*/
+  visibility: hidden;
+}
+.atribute:active{
+transition: top 4s;
+
 }

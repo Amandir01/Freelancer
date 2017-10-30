@@ -40,3 +40,4 @@ Se consultó las siguientes páginas web:
 * https://developer.mozilla.org/es/docs/Web/HTML/Elemento/span
 * https://developer.mozilla.org/es/docs/Web/HTML/Block-level_elements
 * https://www.w3schools.com/css/css3_multiple_columns.asp
+* https://developer.mozilla.org/es/docs/Web/CSS/::placeholder
