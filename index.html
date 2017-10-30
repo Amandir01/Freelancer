@@ -5,25 +5,53 @@
     <meta charset="utf-8">
     <title>Freelancer</title>
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="montserrat"> <!--creamos una barra de navegacion-->
         <div class="container">
-          <div class="principal">
-            <a href="#principal">START BOOTSTRAP</a>
+          <div class="principal text-uppercase">
+            <a href="#principal">Start bootstrap</a>
           </div>
-          <div class="links">
-            <li><a href="#portafolio">PORTAFOLIO</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+          <div class="links text-uppercase">
+            <li><a href="#portafolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
           </div>
-
         </div>
-
       </nav>
-
     </header>
+    <section id="first-container">
+          <div class="image text-align">
+            <img class="littleman text-uppercase" src="assets/images/profile.png" alt="profile">
+          </div>
+          <div class="tittles text-align">
+            <span class="text-uppercase montserrat subtittle1">start bootstrap</span>
+            <span id="start"><i class="fa fa-star" aria-hidden="true"></i></span>
+            <span class="lato subtittle2">Web Developer - Graphic Artist - User Experience Designer</span>
+          </div>
+    </section>
+    <section id="portfolio">
+      <div class="text-align">
+      <h1 class="montserrat text-uppercase ">Portfolio</h1>
+      <span id="start2"><i class="fa fa-star" aria-hidden="true"></i></span>
+      </div>
+
+      <div id="siximages">
+        <img class="six1" src="assets/images/portfolio/cabin.png" alt="">
+        <img class="six1" src="assets/images/portfolio/cake.png" alt="">
+        <img class="six1" src="assets/images/portfolio/circus.png" alt="">
+        <img class="six2"src="assets/images/portfolio/game.png" alt="">
+        <img class="six2"src="assets/images/portfolio/safe.png" alt="">
+        <img class="six2"src="assets/images/portfolio/submarine.png" alt="">
+      </div>
+
+
+    </section>
+
 
   </body>
 </html>
