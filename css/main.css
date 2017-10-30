@@ -233,3 +233,24 @@ button {
   border-radius: 5px;
   margin-top: 125px;
 }
+#footercontainer {
+  width: 619px;
+  height: 342px;
+  background-color: #2c3e50 ;
+  display: inline;
+  color: white;
+}
+.location {
+  text-align: center;
+}
+.around {
+  text-align: center;
+
+}
+.about-free {
+    text-align: center;
+    float: right;
+}
+.final  {
+  text-align: center;
+}
