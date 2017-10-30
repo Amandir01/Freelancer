@@ -260,49 +260,43 @@ button {
 }
 .father {  /*el contenedor de los tres bloques*/
   /*outline: 1px solid grey ;*/
-  margin-left: 110px;
-  margin-right: 110px;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 45px;
-  height: 255px;
-  column-count: 3;
-  display: block;
+  height: 250px;
+  column-count: 3; /*hacer tres columnas*/
+  display: inline-block;
+  width: 80%;
 
 }
 .footertittle { /*tamaño de los titulos de cada bloque*/
-  display: inline;
-  font-size: 29px;
+display: inline; /*para que esten en linea*/
+font-size: 28px;
 }
 .location {
   /*outline: 1px solid red;*/
   text-align: center;
-
-
+  display: block;
+  margin-left: 20px;
 }
 .around { /*bloque central*/
   /*outline: 1px solid blue;*/
   text-align: center;
-
-
 }
 .icons {  /*alrededor de los iconos*/
   /*outline: 1px solid white ;*/
-/*  border-color: 3px solid red ;*/
-  border-radius: 100%;
   margin-top:  40px;
   border-color: red  ;
 }
-.circles  { /*iconos de fontawesome*/
+.circles { /*iconos de fontawesome*/
   /*outline: 1px solid green;*/
   margin: 10px;
   color: white;
-  font-size: 30px;
 }
 
 .about-free {
   /*outline: 1px solid green;*/
   text-align: center;
-
-
 }
 
 .size {  /*tamaño de los bloques de informacion*/
@@ -311,8 +305,10 @@ button {
 }
 .size2   { /*tamaño de la letras debajo de los titulos*/
   /*outline: 1px solid pink ;*/
-  font-size: 20px;
-  margin-top: 12px;
+  font-size: 21px;
+  line-height: 31px;
+  padding-top: 20px;
+  display: inline-block;
 }
 .changed-link { /*color del link del ultimo bloque*/
 color: #18bc9c;
