@@ -193,19 +193,43 @@ h2 {
 
 }
 #contact {
-  height: 887px;
+  height: 795px;
   margin-top: 112px; /*separacion con la anterior seccion*/
-}
+  }
 .tittle3 {
   text-align: center;  /*letras al centro*/
   font-size: 32px; /*tamaño de letra*/
   color: #212529 ;
-
 }
-.atribute { /*para esconder los nombres del label*/
-  visibility: hidden;
-}
-.atribute:active{
-transition: top 4s;
 
+.forms {
+  box-sizing: border-box;
+  text-align: left;  /*enviar las lineas hacia la izquierda*/
+  padding-left: 280px; /*separarlo del margen*/
+}
+hr {
+  margin-left: 0px ;
+  margin-top: 25px;
+  margin-right: 200px;
+  height: 0.5px;
+  background: #868e96; /*color*/
+  opacity: 0.2;
+}
+input {
+    margin-top: 20px;
+    width: 733px;
+    font-size: 26px;
+    border-style: hidden; /*esconder el estilo del borde*/
+    color: #868e96;  /*color*/
+}
+
+button {
+  background-color: #18bc9c ;  /*color*/
+  width: 79px;
+  height: 47px;
+  color: white;
+  font-size: 21px;
+  border-style: none;
+  border-radius: 5px;
+  margin-top: 125px;
 }
