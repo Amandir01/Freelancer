@@ -41,7 +41,7 @@ font-family: 'Lato', sans-serif;
    color: white;
  }
  .links li a {
-   float: right; /*para que salgan en linea*/
+   float: right;
    font-size: 17px;
    color: white ;
    padding-right: 11px; /*espacio entre palabras*/
@@ -53,7 +53,6 @@ font-family: 'Lato', sans-serif;
  }
  #first-container {
    background: #18bc9c ;
-
    margin-top: 105px;
    height: 686px;
  }
@@ -69,8 +68,8 @@ font-family: 'Lato', sans-serif;
 #start::after {
   content: " ";
   display: inline-block;
-  width: 150px;
-  height: 7px;
+  width: 103px;
+  height: 5px;
   background: white;
   margin: 14px 8px;
   border-radius: 6px;
@@ -78,8 +77,8 @@ font-family: 'Lato', sans-serif;
 #start::before {
   content: " ";
   display: inline-block;
-  width: 150px;
-  height: 7px;
+  width: 103px;
+  height: 5px;
   background: white;
   margin: 14px 8px;
   border-radius: 6px;
@@ -97,7 +96,9 @@ font-family: 'Lato', sans-serif;
 }
 #portfolio {
   /*outline: 2px solid black;*/
-  margin: 100px 60px ;
+  margin-top: 100px;
+  margin-right: 78px ;
+  margin-left: 78px;
   box-sizing: border-box;
   font-size: 34px;
   width: 1150px;
@@ -135,4 +136,39 @@ margin: 14px;
 margin: 14px;
 width: 347px;
 height: 252px;
+}
+#information {
+  background-color: #18bc9c;
+  height: 576px;
+  color: white;
+  text-align: center;
+  margin-top: 129px;
+  display: block;
+}
+h2 {
+  margin-top: 110px;
+  font-size: 43px;
+  display: block;
+}
+.paragraph {
+  display: block;
+  margin-left: 200px;
+  text-align: left;
+}
+.paragraph1 {
+  outline: 1px solid black;
+  height: 166px ;
+  font-size: 20px;
+  width: 342px;
+  display: block;
+  margin: 5px;
+
+}
+.paragraph2 {
+  outline: 1px solid purple;
+  height: 166px;
+  font-size: 20px;
+  width: 342px;
+  display: block;
+  margin: 5px;
 }

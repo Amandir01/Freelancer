@@ -34,7 +34,7 @@ a lograr:
 Se consultó las siguientes páginas web:
 
 * https://www.acamica.com/comunidad/4887/cual-es-la-diferencia-entre-section-y-div
-* Nombramiento de clases, id, etc
-* Indentación
+* https://developer.mozilla.org/es/docs/Web/HTML/Block-level_elements
+* https://www.w3schools.com/css/css3_buttons.asp
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
